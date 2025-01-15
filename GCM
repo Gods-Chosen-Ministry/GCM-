@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Chosen Ministry (GCM)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>God's Chosen Ministry (GCM)</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#sermons">Sermons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to God's Chosen Ministry!</h2>
+        <p>We are delighted to have you visit our website and invite you to experience the love, joy, and spiritual growth that our community offers. At God's Chosen Ministry, we believe in creating a welcoming and inclusive environment where everyone can find a sense of belonging and purpose.</p>
+        <p>Whether you are new to the area, seeking a deeper connection with your faith, or looking for a supportive and loving church family, you have found the right place. Our vibrant worship services, meaningful teachings, and various ministries are designed to help you grow in your relationship with God and connect with others.</p>
+        <p>Join us for our regular services, engage in our dynamic events, and become a part of our mission to spread God's love and compassion. We look forward to welcoming you in person and walking alongside you on your spiritual journey.</p>
+        <blockquote>
+            <p><em>"For many are called, but few are chosen." - Matthew 22:14</em></p>
+            <p><em>"But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light." - 1 Peter 2:9</em></p>
+        </blockquote>
+        <p>With blessings,<br><strong>God's Chosen Ministry</strong></p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>God's Chosen Ministry was established on September 29th, 2019, in Nairobi, Kahawa West, Kamuthi. Led by PST. Chris Sila, our mission is to teach people the word of God and the power of prayer. Our vision is to be a mountain of deliverance and soul winning.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>We offer the following services:</p>
+        <ul>
+            <li><strong>Sunday Service:</strong>
+                <ul>
+                    <li>7:00 AM - 9:30 AM: Commanding the Morning</li>
+                    <li>10:00 AM - 1:00 PM: Main Service</li>
+                    <li>1:00 PM - 2:00 PM: Deliverance Service</li>
+                </ul>
+            </li>
+            <li><strong>Tuesday Huduma Service:</strong> 10:00 AM - 1:00 PM</li>
+            <li><strong>Wednesday:</strong> Prayer and Fasting</li>
+            <li><strong>Saturday:</strong> Sunday School Practice and Praise & Worship Practice</li>
+            <li><strong>Kesha:</strong> Every third Friday of the month</li>
+        </ul>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Stay tuned for our upcoming events and activities!</p>
+    </section>
+
+    <section id="sermons">
+        <h2>Sermons</h2>
+        <p>You can access our sermons on our YouTube channel:</p>
+        <p><a href="https://www.youtube.com/@GCM254" target="_blank">God's Chosen Ministry - YouTube</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Location: Nairobi, Kahawa West, Kamuthi</p>
+        <p>Email: <a href="mailto:mitchychris@gmail.com">mitchychris@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254792674775">+254 792 674 775</a></p>
+        <p>
+            <a href="https://wa.me/254705610656?text=Hello%20Pastor%20Chris%20I%20visited%20GCM%20website%20and" target="_blank">
+                <button>Message on WhatsApp</button>
+            </a>
+        </p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 God's Chosen Ministry (GCM). All rights reserved.</p>
+    </footer>
+</body>
+</html>

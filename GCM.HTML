@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Chosen Ministry (GCM)</title>
+    <style>
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minimum size as needed */
+    gap: 15px; /* Space between grid items */
+}
+
+.photo {
+    text-align: center; /* Center the caption below each image */
+}
+
+.photo img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid green; /* Optional border */
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo-section {
+            background-color: purple;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo-section img {
+            height: 60px;
+        }
+
+        .logo-section h1 {
+            color: yellow;
+            margin: 10px 0;
+        }
+
+        nav {
+            background-color: purple;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: purple;
+            border-bottom: 2px solid green;
+        }
+
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 5px solid green;
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-style: italic;
+        }
+
+        button {
+            background-color: yellow;
+            color: purple;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+            color: white;
+        }
+
+        footer {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Button Styles */
+        .whatsapp-button {
+            background-color: #25D366; /* WhatsApp green */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Darker green on hover */
+        }
+
+        .youtube-button {
+            background-color: #FF0000; /* YouTube red */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .youtube-button:hover {
+            background-color: #CC0000; /* Darker red on hover */
+        }
+
+        .facebook-button {
+            background-color: #3b5998; /* Facebook blue */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .facebook-button:hover {
+            background-color: #2d4373; /* Darker blue on hover */
+        }
+
+        .tiktok-button {
+            background-color: #69c9ef; /* TikTok blue */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .tiktok-button:hover {
+            background-color: #4a9ec9; /* Darker blue on hover */
+        }
+
+        .leader-photos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        .more-photos-button {
+            display: inline-block;
+            background-color: yellow;
+            color: purple;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid purple;
+            transition: background-color 0.3s;
+        }
+
+        .more-photos-button:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-section">
+        <img src="MAIN GCM LOGO.jpg" alt="God's Chosen Ministry Logo">
+        <h1>GOD'S CHOSEN MINISTRY</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#sermons">Sermons</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to God's Chosen Ministry!</h2>
+        <p>We are delighted to have you visit our website and invite you to experience the love, joy, and spiritual growth that our community offers. At God's Chosen Ministry, we believe in creating a welcoming and inclusive environment where everyone can find a sense of belonging and purpose.</p>
+        <p>Whether you are new to the area, seeking a deeper connection with your faith, or looking for a supportive and loving church family, you have found the right place. Our vibrant worship services, meaningful teachings, and various ministries are designed to help you grow in your relationship with God and connect with others.</p>
+        <blockquote>
+            <p><em>"For many are called, but few are chosen." - Matthew 22:14</em></p>
+            <p><em>"But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light." - 1 Peter 2:9</em></p>
+        </blockquote>
+        <p>With blessings,<br><strong>God's Chosen Ministry</strong></p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>God's Chosen Ministry was established by God through Pastor Chris on 29th September 2019. Through steadfast prayers and unwavering faith, our church has grown and flourished over the years, becoming a beacon of hope and a place of spiritual nourishment for many.</p>
+        <p>We are committed to spreading the love of Christ and fostering a strong sense of community among our members. Our mission is to inspire and equip individuals to live out their faith with passion and purpose. At God's Chosen Ministry, we offer vibrant worship services, engaging Bible studies, and various ministries that cater to all ages and backgrounds.</p>
+        <p>Our journey is marked by God's grace and the dedication of our congregation. We continue to seek His guidance in all that we do, and we are excited to see what He has in store for us in the future.</p>
+        <p>Join us and become a part of a loving and supportive church family. Together, we can make a difference and bring light to the world.</p>
+    </section>
+
+    <section id="our-beginning">
+        <h2>Our Beginning</h2>
+        <p>God's Chosen Ministry began humbly under a tree, where a small group of believers gathered to pray and worship. This sacred spot became the foundation for our community, symbolizing growth and resilience. Through faith and dedication, we have grown into the vibrant ministry we are today.</p>
+        <img src="TREE.jpg" alt="The Tree Where It All Began" style="max-width: 100%; height: auto; border: 2px solid green;">
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>We offer the following services:</p>
+        <ul>
+            <li><strong>Sunday Service:</strong>
+                <ul>
+                    <li>7:00 AM - 9:30 AM: Commanding the Morning</li>
+                    <li>10:00 AM - 1:00 PM: Main Service</li>
+                    <li>1:00 PM - 2:00 PM: Deliverance Service</li>
+                </ul>
+            </li>
+            <li><strong>Tuesday Huduma Service:</strong> 10:00 AM - 1:00 PM</li>
+            <li><strong>Wednesday:</strong> Prayer and Fasting</li>
+            <li><strong>Saturday:</strong> Sunday School Practice and Praise & Worship Practice</li>
+            <li><strong>Kesha:</strong> Every third Friday of the month</li>
+        </ul>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Kesha on 31 January 2025</p>
+        <p>Kesha on 28 February 2025</p>
+        <p>Annointing on 2 February 2025</p>
+        <p>Holy Communion on 9 February 2025</p>
+        <p>6th Anniversary on 29th September</p>
+    </section>
+
+    <section id="sermons">
+        <h2>Sermons</h2>
+        <p>You can access our sermons on our YouTube channel, you may also subscribe to remain updated:</p>
+        <p>
+            <a href="https://www.youtube.com/@GCM254" target="_blank" class="youtube-button">
+                Watch Our Sermons on YouTube
+            </a>
+        </p>
+    </section>
+
+    <section id="our-leaders">
+        <h2>Meet Our Leaders and Congregation</h2>
+        <div class="leader-photos">
+            <div class="photo">
+                <h3>Pastor Chris</h3>
+                <img src="pst.jpg" alt="Pastor Chris" style="max-width: 100%; height: auto; border: 2px solid green; border-radius: 20%;">
+            </div>
+            <div class="photo">
+                <h3>Our Congregation</h3>
+                <img src="congr.jpg" alt="Congregation" style="max-width: 100%; height: auto; border: 2px solid green;">
+            </div>
+
+            <div class="photo">
+                <h3>Kennedy and Andrew in a Sunday Service</h3>
+                <img src="andrewken.jpg" alt="Ken in Sunday Service" style="max-width: 100%; height: auto; border: 2px solid green;">
+            </div>
+
+
+            <section id="our-leaders">
+                <h2>More members here</h2>
+                <div class="photo-grid">
+                    <div class="photo">
+                        <img src="hadassah.JPG" alt="Hadassah Nzillani">
+                       
+                    </div>
+                    <div class="photo">
+                        <img src="prayer.JPG" alt="Prayer hour">
+                    
+                    </div>
+                    <div class="photo">
+                        <img src="pasii.jpg" alt="Kennedy Wekesa">
+                        
+                    
+                    
+                </div>
+            </section>
+
+            
+            </div>
+        </div>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=100064649985406&sk=photos" target="_blank" class="more-photos-button">
+                More Photos on facebook
+            </a>
+        </p>
+
+    </section>
+
+    <section id="social-media">
+        <h2>Follow Us on Social Media</h2>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=100064649985406&mibextid=rS40aB7S9Ucbxw6v" target="_blank" class="facebook-button">
+                Follow us on Facebook
+            </a>
+        </p>
+        <p>
+            <a href="https://www.tiktok.com/@gcm0254?_t=ZM-8t3PPbGQaTV&_r=1" target="_blank" class="tiktok-button">
+                Follow us on TikTok
+            </a>
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Location: Nairobi, Kahawa West, Kamuthi</p>
+        <p>Email: <a href="mailto:mitchychris@gmail.com">mitchychris@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254792674775">+254 792 674 775</a></p>
+        <p>
+            <a href="https://wa.me/254705610656?text=Hello%20Pastor%20Chris%20I%20visited%20GCM%20website%20and" target="_blank" class="whatsapp-button">
+                Message on WhatsApp
+            </a>
+        </p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+   
+
+    <footer>
+        <p>&copy; 2025 God's Chosen Ministry (GCM). All rights reserved.</p>
+    </footer>
+</body>
+</html>
