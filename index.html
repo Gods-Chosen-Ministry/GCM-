@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>God's Chosen Ministry (GCM)</title>
     <style>
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minimum size as needed */
-    gap: 15px; /* Space between grid items */
-}
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+        }
 
-.photo {
-    text-align: center; /* Center the caption below each image */
-}
+        .photo {
+            text-align: center;
+        }
 
-.photo img {
-    max-width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid green; /* Optional border */
-}
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid green;
+        }
 
         body {
             font-family: Arial, sans-serif;
@@ -114,7 +114,7 @@
 
         /* Button Styles */
         .whatsapp-button {
-            background-color: #25D366; /* WhatsApp green */
+            background-color: #25D366;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -125,11 +125,11 @@
         }
 
         .whatsapp-button:hover {
-            background-color: #128C7E; /* Darker green on hover */
+            background-color: #128C7E;
         }
 
         .youtube-button {
-            background-color: #FF0000; /* YouTube red */
+            background-color: #FF0000;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -140,11 +140,11 @@
         }
 
         .youtube-button:hover {
-            background-color: #CC0000; /* Darker red on hover */
+            background-color: #CC0000;
         }
 
         .facebook-button {
-            background-color: #3b5998; /* Facebook blue */
+            background-color: #3b5998;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -155,11 +155,11 @@
         }
 
         .facebook-button:hover {
-            background-color: #2d4373; /* Darker blue on hover */
+            background-color: #2d4373;
         }
 
         .tiktok-button {
-            background-color: #69c9ef; /* TikTok blue */
+            background-color: #69c9ef;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -170,7 +170,7 @@
         }
 
         .tiktok-button:hover {
-            background-color: #4a9ec9; /* Darker blue on hover */
+            background-color: #4a9ec9;
         }
 
         .leader-photos {
@@ -199,6 +199,13 @@
             background-color: green;
             color: white;
         }
+
+        .datetime {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: purple;
+        }
     </style>
 </head>
 <body>
@@ -206,6 +213,8 @@
         <img src="MAIN GCM LOGO.jpg" alt="God's Chosen Ministry Logo">
         <h1>GOD'S CHOSEN MINISTRY</h1>
     </div>
+
+    <div class="datetime" id="datetime"></div>
 
     <nav>
         <ul>
@@ -297,35 +306,26 @@
                 <img src="andrewken.jpg" alt="Ken in Sunday Service" style="max-width: 100%; height: auto; border: 2px solid green;">
             </div>
 
-
             <section id="our-leaders">
                 <h2>More members here</h2>
                 <div class="photo-grid">
                     <div class="photo">
                         <img src="hadassah.JPG" alt="Hadassah Nzillani">
-                       
                     </div>
                     <div class="photo">
                         <img src="prayer.JPG" alt="Prayer hour">
-                    
                     </div>
                     <div class="photo">
                         <img src="pasii.jpg" alt="Kennedy Wekesa">
-                        
-                    
-                    
+                    </div>
                 </div>
             </section>
-
-            
-            </div>
         </div>
         <p>
             <a href="https://www.facebook.com/profile.php?id=100064649985406&sk=photos" target="_blank" class="more-photos-button">
                 More Photos on facebook
             </a>
         </p>
-
     </section>
 
     <section id="social-media">
@@ -362,10 +362,23 @@
             <button type="submit">Send</button>
         </form>
     </section>
-   
 
     <footer>
         <p>&copy; 2025 God's Chosen Ministry (GCM). All rights reserved.</p>
     </footer>
+
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const optionsDate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const optionsTime = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const date = now.toLocaleDateString(undefined, optionsDate);
+            const time = now.toLocaleTimeString(undefined, optionsTime);
+            document.getElementById('datetime').innerText = `${date}, ${time}`;
+        }
+
+        setInterval(updateDateTime, 1000);
+        updateDateTime(); // Initial call to display date and time immediately
+    </script>
 </body>
 </html>
